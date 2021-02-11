@@ -55,3 +55,35 @@ module.exports = function toReadable (number) {
 	}
   return answer;
 }
+
+function units(number) {
+	var answer = "";
+	if(number == 1) {
+		answer += "one";
+	}
+	else if(number == 2) {
+		answer += "two";
+	}
+	else if(number == 3) {
+		answer += "three";
+	}
+	else if(number == 4) {
+		answer += "four";
+	}
+	else if(number == 5) {
+		answer += "five";
+	}
+	else if(number == 6) {
+		answer += "six";
+	}
+	else if(number == 7) {
+		answer += "seven";
+	}
+	else if(number == 8) {
+		answer += "eight";
+	}
+	else if(number == 9) {
+		answer += "nine";
+	}
+	return answer;
+}
