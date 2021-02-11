@@ -154,3 +154,36 @@ function dozens(number) {
 	}
 	return answer;
 }
+
+function hundreds(number) {
+	var answer = "";
+	if(number == 1) {
+		answer = "one hundred";
+	}	
+	else if(number == 2) {
+		answer = "two hundred";
+	}
+	else if(number == 3) {
+		answer = "three hundred";
+	}
+	else if(number == 4) {
+		answer = "four hundred";
+	}
+	else if(number == 5) {
+		answer = "five hundred";
+	}
+	else if(number == 6) {
+		answer = "six hundred";
+	}
+	else if(number == 7) {
+		answer = "seven hundred";
+	}
+	else if(number == 8) {
+		answer = "eight hundred";
+	}
+	else if(number == 9) {
+		answer = "nine hundred";
+	}
+	return answer;
+}
+
