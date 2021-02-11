@@ -122,3 +122,35 @@ function moreThanNineAndLessThanTwenty(number) {
 	}
 	return answer;
 }
+
+function dozens(number) {
+	var answer = "";
+	if(number == 1) {
+		answer += "ten";
+	}
+	else if(number == 2) {
+		answer += "twenty";
+	}
+	else if(number == 3) {
+		answer += "thirty";
+	}
+	else if(number == 4) {
+		answer += "forty";
+	}
+	else if(number == 5) {
+		answer += "fifty";
+	}
+	else if(number == 6) {
+		answer += "sixty";
+	}
+	else if(number == 7) {
+		answer += "seventy";
+	}
+	else if(number == 8) {
+		answer += "eighty";
+	}
+	else if(number == 9) {
+		answer += "ninety";
+	}
+	return answer;
+}
