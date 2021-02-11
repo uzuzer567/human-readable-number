@@ -87,3 +87,38 @@ function units(number) {
 	}
 	return answer;
 }
+
+function moreThanNineAndLessThanTwenty(number) {
+	var answer = "";
+	if(number == 0) {
+		answer += "ten";
+	}
+	else if(number == 1) {
+		answer += "eleven";
+	}
+	else if(number == 2) {
+		answer += "twelve";
+	}
+	else if(number == 3) {
+		answer += "thirteen";
+	}
+	else if(number == 4) {
+		answer += "fourteen";
+	}
+	else if(number == 5) {
+		answer += "fifteen";
+	}
+	else if(number == 6) {
+		answer += "sixteen";
+	}
+	else if(number == 7) {
+		answer += "seventeen";
+	}
+	else if(number == 8) {
+		answer += "eighteen";
+	}
+	else if(number == 9) {
+		answer += "nineteen";
+	}
+	return answer;
+}
